@@ -22,8 +22,6 @@ from .restapis import get_request, analyze_review_sentiments, post_review
 logger = logging.getLogger(__name__)
 
 
-# Create your views here.
-
 def get_cars(request):
     count = CarMake.objects.filter().count()
     print(count)
